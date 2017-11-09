@@ -31,6 +31,7 @@ public class ViewPrincipal extends javax.swing.JFrame {
         jmenu_paneles = new javax.swing.JMenu();
         jm_item_clientes = new javax.swing.JMenuItem();
         jm_item_peliculas = new javax.swing.JMenuItem();
+        jm_item_rentas = new javax.swing.JMenuItem();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -41,6 +42,9 @@ public class ViewPrincipal extends javax.swing.JFrame {
 
         jm_item_peliculas.setText("Peliculas");
         jmenu_paneles.add(jm_item_peliculas);
+
+        jm_item_rentas.setText("Rentas");
+        jmenu_paneles.add(jm_item_rentas);
 
         jmbar_paneles.add(jmenu_paneles);
 
@@ -98,6 +102,7 @@ public class ViewPrincipal extends javax.swing.JFrame {
     // Variables declaration - do not modify//GEN-BEGIN:variables
     public javax.swing.JMenuItem jm_item_clientes;
     public javax.swing.JMenuItem jm_item_peliculas;
+    public javax.swing.JMenuItem jm_item_rentas;
     private javax.swing.JMenuBar jmbar_paneles;
     private javax.swing.JMenu jmenu_paneles;
     // End of variables declaration//GEN-END:variables
